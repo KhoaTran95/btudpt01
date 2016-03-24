@@ -1,0 +1,18 @@
+body
+{
+	margin: 0px;
+}
+
+div.banner
+{
+	background-color: white;
+	min-width: 1050px;
+}
+
+div.banner h1
+{
+	color: #1b0737;
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+}
