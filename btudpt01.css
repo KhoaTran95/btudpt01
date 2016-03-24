@@ -49,3 +49,33 @@ div.top-menu ul a.not-cur
 	margin-right: 20px;
 	text-decoration: none;
 }
+
+div.left-menu
+{
+	background-color: #c3b8d4;
+	float: left;
+	min-width: 250px;
+	min-height: 800px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.left-menu ul
+{
+	height: 100%;
+	margin: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+div.left-menu ul li
+{
+	line-height: 50px;
+}
+
+div.left-menu ul li a
+{
+	color: #1b0737;
+	font-weight: bold;
+	text-decoration: none;
+}
