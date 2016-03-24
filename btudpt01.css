@@ -16,3 +16,36 @@ div.banner h1
 	margin: 0px;
 	padding: 10px;
 }
+
+div.top-menu
+{
+	background-color: #1b0737;
+	margin: 0px;	
+	min-width: 1050px;
+}
+
+div.top-menu ul
+{
+	text-align: center;
+	padding: 10px;
+	margin: 0px;
+}
+
+div.top-menu ul li
+{
+	display: inline-block;
+}
+
+div.top-menu ul li a.cur
+{
+	color: white;
+	margin-right: 20px;
+	text-decoration: underline;
+}
+
+div.top-menu ul a.not-cur
+{
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+}
