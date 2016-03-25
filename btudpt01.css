@@ -79,3 +79,62 @@ div.left-menu ul li a
 	font-weight: bold;
 	text-decoration: none;
 }
+
+div.content
+{
+	min-width: 1050px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.content p.g-name
+{
+	text-align: center;
+	padding-top: 10px;
+	color: #1b0737;
+	font-style: italic;
+	font-weight: bold;
+}
+
+div.content img.g-pic
+{
+	margin-top: 20px;
+	margin-left: 160px;
+	min-width: 640px;
+}
+
+div.content img.m1-pic
+{
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+}
+
+div.content a.mem1
+{
+	float: left;
+	margin-top: 100px;
+	margin-left: 30px;
+	line-height: 30px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+div.content img.m2-pic
+{
+	float: left;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+}
+
+div.content a.mem2
+{
+	float: left;
+	margin-top: 110px;
+	margin-left: 40px;
+	line-height: 30px;
+	font-style: italic;
+	text-decoration: underline;
+}
