@@ -1,0 +1,247 @@
+body
+{
+	margin: 0px;
+}
+
+div.banner
+{
+	color: #5a5454;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 15px;
+}
+
+div.top-menu
+{
+	position: relative;
+	width: 1231px;
+	background-color: #686161;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.top-menu ul
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+div.top-menu ul li
+{
+	display: inline;
+}
+
+div.top-menu ul li a.cur
+{
+	background-color: #35aa3e;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+}
+
+div.top-menu ul li a.non-cur
+{
+	background-color: #686161;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+}
+
+div.top-menu ul li a.non-cur:hover
+{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+}
+
+div.body
+{
+	position: relative;
+}
+
+div.left-menu
+{
+	position: absolute;
+	background-color: #eae9e9;
+	width: 250px;
+	height: 780px;
+}
+
+div.left-menu ul
+{
+	//position: absolute;
+	//display: block;
+	padding: 0px;
+	list-style-type: none;
+}
+
+div.left-menu ul li
+{
+	margin-top: 20px;
+	width: 250px;
+}
+
+div.left-menu ul li a.cur
+{
+	background-color: #35aa3e;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+}
+
+div.left-menu ul li a.non-cur-one
+{
+	color: black;
+	text-decoration: none;
+	padding: 10px 25px 10px 22px;
+}
+
+div.left-menu ul li a.non-cur-two
+{
+	color: black;
+	text-decoration: none;
+	padding: 10px 49px 10px 23px;
+}
+
+div.left-menu ul li a.non-cur-three
+{
+	color: black;
+	text-decoration: none;
+	padding: 10px 166px 10px 23px;
+}
+
+div.left-menu ul li a.non-cur-four
+{
+	color: black;
+	text-decoration: none;
+	padding: 10px 69px 10px 23px;
+}
+
+div.left-menu ul li a.non-cur-one:hover
+{
+	background-color: #c6c5c5;
+	color: black;
+	text-decoration: none;
+	padding: 10px 25px 10px 22px;
+}
+
+div.left-menu ul li a.non-cur-two:hover
+{
+	background-color: #c6c5c5;
+	color: black;
+	text-decoration: none;
+	padding: 10px 49px 10px 23px;
+}
+
+div.left-menu ul li a.non-cur-three:hover
+{
+	background-color: #c6c5c5;
+	color: black;
+	text-decoration: none;
+	padding: 10px 166px 10px 23px;
+}
+
+div.left-menu ul li a.non-cur-four:hover
+{
+	background-color: #c6c5c5;
+	color: black;
+	text-decoration: none;
+	padding: 10px 69px 10px 23px;
+}
+
+div.content
+{
+	position: absolute;
+	left: 250px;
+	color: white;
+	width: 981px;
+	height: 750px;
+}
+
+div.content p.g-name
+{
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-style: italic;
+}
+
+div.content img.g-pic
+{
+	position: absolute;
+	top: 80px;
+	left: 170px;
+}
+
+div.content img.m1-pic
+{
+	position: absolute;
+	top: 500px;
+	left: 90px;
+}
+
+div.content a.mem1
+{
+	position: absolute;
+	top: 570px;
+	left: 260px;
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
+
+div.content a.mem1:hover
+{
+	position: absolute;
+	top: 570px;
+	left: 260px;
+	text-decoration: none;
+	color: #5cb208;
+	font-style: italic;
+}
+
+
+div.content img.m2-pic
+{
+	position: absolute;
+	top: 530px;
+	left: 490px;
+}
+
+div.content a.mem2
+{
+	position: absolute;
+	top: 580px;
+	left: 770px;
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
+
+div.content a.mem2:hover
+{
+	position: absolute;
+	top: 580px;
+	left: 770px;
+	text-decoration: none;
+	color: #5cb208;
+	font-style: italic;
+}
+
+div.footer
+{
+	position: absolute;
+	top: 750px;
+	left: 250px;
+	width: 981px;
+	text-align: center;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
