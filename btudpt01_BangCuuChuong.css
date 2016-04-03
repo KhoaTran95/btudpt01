@@ -172,11 +172,11 @@ div.content p.g-name
 	font-style: italic;
 }
 
-div.content img.g-pic
+div.content img.bcc-pic
 {
 	position: absolute;
-	top: 80px;
-	left: 170px;
+	top: 50px;
+	left: 100px;
 }
 
 div.content img.m1-pic
@@ -232,43 +232,6 @@ div.content a.mem2:hover
 	text-decoration: none;
 	color: #5cb208;
 	font-style: italic;
-}
-
-
-div.content img.m1-pic-1312290
-{
-	position: absolute;
-	top: 130px;
-	left: 90px;
-}
-
-div.content img.m2-pic-1312293
-{
-	position: absolute;
-	top: 130px;
-	left: 90px;
-}
-
-div.content p.mem-name
-{
-	position: absolute;
-	top: 10px;
-	width: 100%;
-	text-align: center;
-	color: black;
-	font-style: italic;
-}
-
-div.content p.mem-info
-{
-	position: absolute;
-	top: 150px;
-	left: 600px;
-	width: 100%;
-	text-align: left;
-	color: black;
-	font-style: normal;
-	font-size: 150%;
 }
 
 div.footer
