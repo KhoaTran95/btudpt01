@@ -15,7 +15,8 @@ div.banner
 div.top-menu
 {
 	position: relative;
-	width: 1231px;
+	max-width: 1900px;
+	min-width: 1231px;
 	background-color: #686161;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -244,4 +245,41 @@ div.footer
 	padding-top: 5px;
 	padding-bottom: 5px;
 	font-weight: bold;
+}
+
+
+div.content img.m1-pic-1312290
+{
+	position: absolute;
+	top: 130px;
+	left: 90px;
+}
+
+div.content img.m2-pic-1312293
+{
+	position: absolute;
+	top: 130px;
+	left: 90px;
+}
+
+div.content p.mem-name
+{
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-style: italic;
+}
+
+div.content p.mem-info
+{
+	position: absolute;
+	top: 150px;
+	left: 600px;
+	width: 100%;
+	text-align: left;
+	color: black;
+	font-style: normal;
+	font-size: 150%;
 }
